@@ -25,7 +25,7 @@ public class Customer {
 	@Column(name = "Last_Name")
 	private String last_name;
 	
-	@Column(name = "Phone_Number", unique = true , length = 10)
+	@Column(name = "Phone_Number")
 	private String phone_number;
 	
 	@OneToOne
